@@ -1,0 +1,9 @@
+5. Short Explanation of Route Parameters and Use Case
+ANS:What are route parameters in Express.js?
+
+Route parameters are dynamic values written directly in the URL path. They are used to capture specific data like an ID. For example, in the route /student/:id, :id is a route parameter that can be accessed using req.params.id. This allows you to fetch details like a specific student from a list.
+
+*How are they different from query parameters?
+
+Route parameters are part of the path (like /student/2), while query parameters are added at the end with a ? (like /student?id=2). Route parameters are typically used when the value is required, and query parameters are used for optional filters.
+
